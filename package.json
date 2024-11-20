@@ -1,0 +1,31 @@
+{
+  "name": "rbxts-transform-dev",
+  "version": "0.0.2",
+  "main": "out/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "MiaoWoo",
+  "license": "MIT",
+  "description": "",
+  "types": "index.d.ts",
+  "files": [
+    "out",
+    "index.d.ts",
+    "!**/*.tsbuildinfo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/circlecloud/rbxts-transform-dev.git"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "typescript": "^5.5.3"
+  },
+  "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a"
+}
